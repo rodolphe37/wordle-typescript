@@ -8,7 +8,7 @@ const WordleBoard: React.FC = (): JSX.Element => {
 
   return (
     <div className="board-container">
-      <span style={{ color: "white" }}>{solution}</span>
+      {/* <span style={{ color: "white" }}>{solution}</span> */}
       {guesses.map(
         (guess: string, i: number): JSX.Element => (
           <WordleInput
