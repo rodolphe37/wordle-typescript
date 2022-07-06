@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-### Worlde in Typescript with some clean code patterns
+### Worlde in Typescript with some clean code patterns ( not for mobile - this is just an example of clean code with TypeScript, media queries are not specifically covered in this example.)
 
 <img  style =" margin-top: 5px; margin-right: 22px " src="demo/demo.png" alt="drawing" height="100%" width="100%"/>
 
