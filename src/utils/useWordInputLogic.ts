@@ -26,6 +26,9 @@ const useWordInputLogic = ({
     } else if (i === 4 && e.key === "Enter" && isCurrentGuessFull) {
       handleSubmit();
       autoTab(0, index + 1);
+    } else if (i === 4 && isCurrentGuessFull) {
+      handleSubmit();
+      autoTab(0, index + 1);
     } else {
       let inputToGoToIndex: number = i + 1;
       autoTab(inputToGoToIndex, index);
