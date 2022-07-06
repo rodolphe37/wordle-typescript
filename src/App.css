@@ -78,3 +78,13 @@ button {
 .key:hover {
   border: 1px solid #eeeeee;
 }
+
+@media screen and (max-width: 900px) {
+  .keyLetter,
+  input[type="text"] {
+    height: 44px !important;
+  }
+  input[type="text"] {
+    width: 44px !important;
+  }
+}

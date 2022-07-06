@@ -25,7 +25,7 @@ const useBoardLogic = () => {
       (guess: string): string => guess && guess
     );
     if (hasWon) {
-      // window.location.reload();
+      window.location.reload();
     } else if (realGuesses.length >= 6) {
       alert("Loser.");
       window.location.reload();
