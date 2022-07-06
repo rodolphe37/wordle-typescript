@@ -79,6 +79,10 @@ button {
   border: 1px solid #eeeeee;
 }
 
+.mobile-button {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   .keyLetter,
   input[type="text"] {
@@ -86,5 +90,8 @@ button {
   }
   input[type="text"] {
     width: 44px !important;
+  }
+  .mobile-button {
+    display: inherit;
   }
 }
