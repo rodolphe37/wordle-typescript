@@ -9,14 +9,13 @@ const WordleInput: React.FC<Props> = ({
   solution,
   usableWords,
 }: Props): JSX.Element => {
-  const { currentGuess, setCurrentGuess, handleKeyUp, handleSubmit } =
-    useWordInputLogic({
-      solution,
-      guesses,
-      setGuesses,
-      usableWords,
-      index,
-    });
+  const { currentGuess, setCurrentGuess, handleKeyUp } = useWordInputLogic({
+    solution,
+    guesses,
+    setGuesses,
+    usableWords,
+    index,
+  });
   return (
     <Fragment>
       <div>
@@ -40,19 +39,6 @@ const WordleInput: React.FC<Props> = ({
           />
         ))}
       </div>
-      {guesses ? (
-        <div className="button-container">
-          <button
-            className="mobile-button"
-            onClick={handleSubmit}
-            style={{ fontSize: 14 }}
-          >
-            Submit
-          </button>
-        </div>
-      ) : (
-        ""
-      )}
     </Fragment>
   );
 };

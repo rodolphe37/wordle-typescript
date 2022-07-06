@@ -67,7 +67,6 @@ const useWordInputLogic = ({
     currentGuess,
     setCurrentGuess,
     handleKeyUp,
-    handleSubmit,
   };
 };
 
