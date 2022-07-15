@@ -4,6 +4,8 @@
 
 <img  style =" margin-top: 5px; margin-right: 22px " src="demo/demo.png" alt="drawing" height="100%" width="100%"/>
 
+**Demo Link: https://simple-wordle-typescript-demo.netlify.app/**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
